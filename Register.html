@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <main>
+        <p>Go to the bottom of the <a href="#bottom" id="top">page</a></p>
+
+        <form action="#" method="POST" name="sign-up form">
+            <fieldset>
+                <legend align="center"> Student's Personal Information</legend>
+
+                <label for="name">Student's Name:</label> <input type="text" id="name" placeholder="Enter your name" required><br><br>
+    
+                <label for="password">Student's Password:</label> <input type="password" id="password" placeholder="Enter your password" required><br><br>
+    
+                <label for="email">Student's Email:</label> <input type="email" id="email" placeholder="Enter your email">
+    
+            <!-- religion question -->
+                <p>What religion do you belongs to?</p>
+                <input type="radio" name="religion" id="Christianity"> <label for="Christianity">Christianity</label><br>
+    
+                <input type="radio" name="religion" id="muslim"> <label for="muslim">Muslim</label><br>
+    
+                <input type="radio" name="religion" id="Traditionalist"> <label for="Traditionalist">Traditionalist</label>
+    
+                <!-- gender question -->
+                <p>Please select your gender</p>
+                <input type="radio" name="gender" id="male"><label for="male">Male</label><br>
+    
+                <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend align="center">Student's Extra Information</legend>
+                <p>What course(s) will you like to register for?</p>
+                <input type="checkbox" name="courses" id="Mathematics"> <label for="Mathematics">Mathematics</label><br>
+    
+                <input type="checkbox" name="courses" id="English"> <label for="English">English</label><br>
+    
+                <input type="checkbox" name="courses" id="Chemistry"> <label for="Chemistry">Chemistry</label><br>
+    
+                <input type="checkbox" name="courses" id="Literature"> <label for="Literature">Literature</label><br>
+    
+                <input type="checkbox" name="courses" id="Government"> <label for="Government">Government</label><br>
+    
+                <input type="checkbox" name="courses" id="Physics"> <label for="Physics">Physics</label><br>
+    
+                <input type="checkbox" name="courses" id="Agriculture"> <label for="Agriculture">Agriculture</label>
+    
+    
+            <p>What class are you?</p>
+            <select name="" id="level">
+                <optgroup label="Junior Class">
+                    <option value="JS 1">JS 1</option>
+                    <option value="JS 2">JS 2</option>
+                    <option value="JS 3">JS 3</option>
+                </optgroup>
+                <optgroup label="Senior Class">
+                    <option value="SS 1">SS 1</option>
+                    <option value="SS 2">SS 2</option>
+                    <option value="SS 3">SS 3</option>
+                </optgroup>
+            </select>
+            <aside>
+                <p>Have you paid your school fees?</p>
+                <input type="radio" name="fees" id="yes"> <label for="yes">Yes</label><br>
+    
+                <input type="radio" name="fees" id="no"> <label for="no">No</label><br>
+    
+                    <!-- further questions about reasons for defaulting in payment -->
+                <p>If No, can you tell us why you haven't paid?</p>
+                <input type="checkbox" name="default" id="no money"> <label for="no monney">No Money</label><br>
+    
+                <input type="checkbox" name="default" id="salary issues"> <label for="salary issues">Salary Issues</label><br>
+    
+                <input type="checkbox" name="default" id="finance support"> <label for="finance support">Need for financial support</label><br><br>
+    
+                <textarea name="" id="others" cols="30" rows="10">Please, specify other reasons...</textarea>
+            </aside>
+    
+                <p>Tell us more about your expectations during your time here</p>
+                <textarea name="" id="" cols="50" rows="20">What is your expectations in this school?</textarea>
+            </fieldset><br>
+            <input type="submit" value="Send Message" id="submit">
+        </form> 
+
+        <p>Click to go back to the <a href="./Homepage.html">homepage</a></p>
+       <p>Click to go back to the top of the <a href="#top" id="bottom">page</a></p>
+
+            
+    </main>
+    
+</body>
+</html>
